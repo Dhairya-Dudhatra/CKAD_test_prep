@@ -1,0 +1,23 @@
+-- create config map --
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name:
+data:
+  key: value
+  key: value
+  
+-- inject configmap into POD --
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name:
+spec:
+  containers:
+  - name:
+    image:
+    envFrom:
+    - configMapRef:
+        name:

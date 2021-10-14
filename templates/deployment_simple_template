@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name:
+  namespace:
+  labels:
+    key: value
+spec:
+  replicas: 
+  selector:
+    matchLabels:
+      key: value
+  template:
+    metadata:
+      name: 
+      labels:
+        key: value  
+    spec:
+      containers:
+      - name:
+        image:  
+

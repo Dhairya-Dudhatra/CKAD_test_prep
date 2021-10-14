@@ -1,0 +1,14 @@
+--  Resource Quota per Namespace --
+
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: 
+  namespace:
+spec:
+  hard:
+    pods: ""
+    requests.cpu: ""
+    requests.memory: 
+    limits.cpu: ""
+    limits.memory: 
