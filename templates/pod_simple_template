@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name:
+  namespace:
+  labels:
+    key: value
+spec:
+  containers:
+  - name:
+    image:
