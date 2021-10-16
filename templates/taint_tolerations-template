@@ -1,0 +1,19 @@
+-- taint --
+
+kubectl taint node node_name key=value:policy
+
+-- tolerations --
+
+apiVersion: v1
+kind: Pod
+metadata:
+ name: 
+spec:
+  containers:
+  - name: 
+    image:
+  tolerations:
+  - key: ""
+    operator: "Equal"
+    value: ""
+    effect: ""
