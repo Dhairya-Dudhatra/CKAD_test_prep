@@ -1,0 +1,16 @@
+-- label --
+
+kubectl labels nodes node_name key=value
+
+-- nodeSelector --
+
+apiVersion: v1
+kind: Pod
+metadata:
+ name: 
+spec:
+  containers:
+  - name: 
+    image:
+  nodeSelector:
+    key: value
