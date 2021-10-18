@@ -1,0 +1,17 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name:
+spec:
+  schedule: ""
+  jobTemplate:
+    spec:
+      completions:
+      parallelism: 
+      template:
+        spec:
+          containers:
+          - name: 
+            image:  
+            command:  
+            restartPolicy: Never
